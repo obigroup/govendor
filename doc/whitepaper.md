@@ -1,6 +1,6 @@
 # govendor whitepaper
 
-`go get -u github.com/kardianos/govendor`
+`go get -u github.com/obigroup/govendor`
 
 ## Primary Workflows
  * Lock in existing revisions from GOPATH. Check vendor source into source control.

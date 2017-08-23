@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kardianos/govendor/help"
-	"github.com/kardianos/govendor/internal/gt"
-	"github.com/kardianos/govendor/prompt"
+	"github.com/obigroup/govendor/help"
+	"github.com/obigroup/govendor/internal/gt"
+	"github.com/obigroup/govendor/prompt"
 )
 
 var relVendorFile = filepath.Join("vendor", "vendor.json")

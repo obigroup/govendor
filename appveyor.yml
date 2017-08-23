@@ -6,7 +6,7 @@ environment:
   GOPATH: c:\gopath
   GOVERSION: 1.7
 
-clone_folder: c:\gopath\src\github.com\kardianos\govendor
+clone_folder: c:\gopath\src\github.com\obigroup\govendor
 
 install:
   - mkdir c:\tmp

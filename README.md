@@ -1,5 +1,5 @@
 # The Vendor Tool for Go
-`go get -u github.com/kardianos/govendor`
+`go get -u github.com/obigroup/govendor`
 
 New users please read the [FAQ](doc/faq.md)
 
@@ -9,9 +9,9 @@ For a high level overview read the [whitepaper](doc/whitepaper.md)
 
 Uses the go1.5+ vendor folder. Multiple workflows supported, single tool.
 
-[![Build Status](https://travis-ci.org/kardianos/govendor.svg?branch=master)](https://travis-ci.org/kardianos/govendor)
-[![Build status](https://ci.appveyor.com/api/projects/status/skf1t3363y6tycuc/branch/master?svg=true)](https://ci.appveyor.com/project/kardianos/govendor/branch/master)
-[![GoDoc](https://godoc.org/github.com/kardianos/govendor?status.svg)](https://godoc.org/github.com/kardianos/govendor)
+[![Build Status](https://travis-ci.org/obigroup/govendor.svg?branch=master)](https://travis-ci.org/obigroup/govendor)
+[![Build status](https://ci.appveyor.com/api/projects/status/skf1t3363y6tycuc/branch/master?svg=true)](https://ci.appveyor.com/project/obigroup/govendor/branch/master)
+[![GoDoc](https://godoc.org/github.com/obigroup/govendor?status.svg)](https://godoc.org/github.com/obigroup/govendor)
 
  * Copy existing dependencies from $GOPATH with `govendor add/update`.
  * If you ignore `vendor/*/`, restore dependencies with `govendor sync`.
@@ -122,18 +122,18 @@ The full package-spec is:
 
 Some examples:
 
- * `github.com/kardianos/govendor` specifies a single package and single folder.
- * `github.com/kardianos/govendor/...` specifies `govendor` and all referenced
+ * `github.com/obigroup/govendor` specifies a single package and single folder.
+ * `github.com/obigroup/govendor/...` specifies `govendor` and all referenced
 	packages under that path.
- * `github.com/kardianos/govendor/^` specifies the `govendor` folder and all
+ * `github.com/obigroup/govendor/^` specifies the `govendor` folder and all
 	sub-folders. Useful for resources or if you don't want a partial repository.
- * `github.com/kardianos/govendor/^::github.com/myself/govendor` same as above
+ * `github.com/obigroup/govendor/^::github.com/myself/govendor` same as above
 	but fetch from user "myself".
- * `github.com/kardianos/govendor/...@abc12032` all referenced packages at
+ * `github.com/obigroup/govendor/...@abc12032` all referenced packages at
 	revision `abc12032`.
- * `github.com/kardianos/govendor/...@v1` same as above, but get the most recent
+ * `github.com/obigroup/govendor/...@v1` same as above, but get the most recent
 	"v1" tag, such as "v1.4.3".
- * `github.com/kardianos/govendor/...@=v1` get the exact version "v1".
+ * `github.com/obigroup/govendor/...@=v1` get the exact version "v1".
 
 ## Packages and Status
 

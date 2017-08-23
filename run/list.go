@@ -11,8 +11,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/kardianos/govendor/context"
-	"github.com/kardianos/govendor/help"
+	"github.com/obigroup/govendor/context"
+	"github.com/obigroup/govendor/help"
 )
 
 func (r *runner) List(w io.Writer, subCmdArgs []string) (help.HelpMessage, error) {

@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kardianos/govendor/internal/pathos"
-	"github.com/kardianos/govendor/pkgspec"
-	gvvcs "github.com/kardianos/govendor/vcs"
-	"github.com/kardianos/govendor/vendorfile"
+	"github.com/obigroup/govendor/internal/pathos"
+	"github.com/obigroup/govendor/pkgspec"
+	gvvcs "github.com/obigroup/govendor/vcs"
+	"github.com/obigroup/govendor/vendorfile"
 
 	"golang.org/x/tools/go/vcs"
 )
@@ -159,7 +159,7 @@ func (f *fetcher) op(op *Operation) ([]*Operation, error) {
 	}
 
 	// set op.Src to download dir.
-	// /tmp/cache/1/[[github.com/kardianos/govendor]]context
+	// /tmp/cache/1/[[github.com/obigroup/govendor]]context
 	op.Src = pkgDir
 	var deps []string
 	op.IgnoreFile, deps, err = f.Ctx.getIgnoreFiles(op.Src)

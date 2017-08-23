@@ -126,7 +126,7 @@ func NewHttpHandler(g *GopathTest, vcsName string) *HttpHandler {
 			h.vcsAddr = "git://localhost/"
 		}
 
-		// TODO(kardianos): on windows we fail to kill the process tree. This
+		// TODO(obigroup): on windows we fail to kill the process tree. This
 		// results in failing to clean up the temp dir. Find a way to
 		// kill the "git daemon" processes.
 

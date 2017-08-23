@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kardianos/govendor/pkgspec"
+	"github.com/obigroup/govendor/pkgspec"
 	"golang.org/x/tools/go/vcs"
 )
 

@@ -3,8 +3,8 @@ Vendor Packages in Go
 Tags: vendor-spec, vendor folder, govendor, godep
 
 Daniel Theophanes
-kardianos@gmail.com
-https://github.com/kardianos
+obigroup@gmail.com
+https://github.com/obigroup
 
 * What do we do with dependencies?
 In Java and C#:
@@ -95,7 +95,7 @@ Many opinions on what to do and how to do it.
 This is where we hope the "vendor-spec" will help.
 
 * What is the "vendor-spec"?
-.link https://github.com/kardianos/vendor-spec github.com/kardianos/vendor-spec
+.link https://github.com/obigroup/vendor-spec github.com/obigroup/vendor-spec
 
 Example:
 
@@ -126,7 +126,7 @@ So long as this file is created and maintained by tools or developers, other too
 
 * What tools use "vendor-spec"?
 
-.link https://github.com/kardianos/govendor github.com/kardianos/govendor
+.link https://github.com/obigroup/govendor github.com/obigroup/govendor
 
 Edward is investigating compatibility issues with godep.
 

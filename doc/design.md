@@ -17,15 +17,15 @@ package-spec = <path>[@[version]]
 govendor fetch [-tree] [-insecure] [+status] [package-spec]`
 
 # Example: Set a version specifier
-govendor fetch github.com/kardianos/osext@v1
+govendor fetch github.com/obigroup/osext@v1
 
 # Fetching an existing package (named or with status) without
 # a "@" will update to HEAD if no version or the latest matching
 # revision if there is a version.
-govendor fetch github.com/kardianos/osext
+govendor fetch github.com/obigroup/osext
 
 # Example: Remove any version specifier
-govendor fetch github.com/kardianos/osext@
+govendor fetch github.com/obigroup/osext@
 
 # Sync reads the vendor.json file and updates the vendor dir to match.
 # Only hits the network if files out of date.

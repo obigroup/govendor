@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	os "github.com/kardianos/govendor/internal/vos"
+	os "github.com/obigroup/govendor/internal/vos"
 )
 
 // SkipDir is used as a return value from WalkFuncs to indicate that

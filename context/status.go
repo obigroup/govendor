@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/kardianos/govendor/pkgspec"
+	"github.com/obigroup/govendor/pkgspec"
 )
 
 type (

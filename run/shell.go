@@ -14,7 +14,7 @@ import (
 	"net/http"
 	_ "net/http/pprof" // imported for side effect of registering handler
 
-	"github.com/kardianos/govendor/help"
+	"github.com/obigroup/govendor/help"
 
 	"github.com/Bowery/prompt"
 	"github.com/google/shlex"

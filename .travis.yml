@@ -22,4 +22,4 @@ deploy:
   - govendor_windows_386.exe
   on:
     tags: true
-    repo: kardianos/govendor
+    repo: obigroup/govendor

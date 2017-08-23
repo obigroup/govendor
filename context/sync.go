@@ -18,8 +18,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kardianos/govendor/internal/pathos"
-	"github.com/kardianos/govendor/vendorfile"
+	"github.com/obigroup/govendor/internal/pathos"
+	"github.com/obigroup/govendor/vendorfile"
 
 	"golang.org/x/tools/go/vcs"
 )
@@ -113,8 +113,8 @@ func getHash(root, fp string, h hash.Hash, skipper func(name string, isDir bool)
 }
 
 // similarSegments compares two paths and determines if they have
-// similar prefix segments. For example github.com/kardianos/rdb and
-// github.com/kardianos/govendor have 2 similar segments.
+// similar prefix segments. For example github.com/obigroup/rdb and
+// github.com/obigroup/govendor have 2 similar segments.
 func similarSegments(p1, p2 string) (string, int) {
 	seg1 := strings.Split(p1, "/")
 	seg2 := strings.Split(p2, "/")

@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"time"
 
-	os "github.com/kardianos/govendor/internal/vos"
+	os "github.com/obigroup/govendor/internal/vos"
 )
 
 type VcsSvn struct{}
